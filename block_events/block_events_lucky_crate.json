@@ -41,7 +41,7 @@
                 }
             }
         ],
-        "relayBuildWill": [
+        "relayBuildWell": [
             {
                 "actionId": "base:set_cuboid",
                 "parameters": {
@@ -145,7 +145,7 @@
                     "xOff": 0,
                     "yOff": 0,
                     "zOff": 0,
-                    "triggerId": "relayBuildWill"
+                    "triggerId": "relayBuildWell"
                 }
             },
             {

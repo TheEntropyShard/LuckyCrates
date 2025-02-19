@@ -6,7 +6,7 @@ LuckyCrates is a data mod for [Cosmic Reach](https://finalforeach.itch.io/cosmic
 - Drops all kinds of items and all blocks (except for unobtainable ones)
 - Can blow up with a 5% chance
 - Can enclose you in a cheese box with 15% chance
-- Can give you a "will" with a 20% chance
+- Can give you a "well" with a 20% chance
 
 # Credits
 
