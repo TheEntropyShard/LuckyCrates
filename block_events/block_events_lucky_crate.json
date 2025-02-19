@@ -1,0 +1,174 @@
+{
+    "parent": "base:block_events_default",
+    "stringId": "luckycrates:block_events_lucky_crate",
+    "triggers": {
+        "relayLuckyCrateDrop": [
+            {
+                "actionId": "base:loot_drop",
+                "parameters": {
+                    "position": [
+                        0,
+                        0,
+                        0
+                    ],
+                    "lootId": "luckycrates:loot_lucky_crate"
+                }
+            }
+        ],
+        "relayBuildBox": [
+            {
+                "actionId": "base:set_cuboid",
+                "parameters": {
+                    "x1Off": -10,
+                    "y1Off": -10,
+                    "z1Off": -10,
+                    "x2Off": 10,
+                    "y2Off": 10,
+                    "z2Off": 10,
+                    "blockStateId": "base:cheese[default]"
+                }
+            },
+            {
+                "actionId": "base:set_cuboid",
+                "parameters": {
+                    "x1Off": -9,
+                    "y1Off": -9,
+                    "z1Off": -9,
+                    "x2Off": 9,
+                    "y2Off": 9,
+                    "z2Off": 9,
+                    "blockStateId": "base:air[default]"
+                }
+            }
+        ],
+        "relayBuildWill": [
+            {
+                "actionId": "base:set_cuboid",
+                "parameters": {
+                    "x1Off": -1,
+                    "y1Off": -5,
+                    "z1Off": -1,
+                    "x2Off": 2,
+                    "y2Off": 1,
+                    "z2Off": 2,
+                    "blockStateId": "base:stone_gabbro[default]"
+                }
+            },
+            {
+                "actionId": "base:set_cuboid",
+                "parameters": {
+                    "x1Off": -2,
+                    "y1Off": 0,
+                    "z1Off": -2,
+                    "x2Off": 3,
+                    "y2Off": 0,
+                    "z2Off": 3,
+                    "blockStateId": "base:stone_gabbro[default]"
+                }
+            },
+            {
+                "actionId": "base:set_cuboid",
+                "parameters": {
+                    "x1Off": 0,
+                    "y1Off": -4,
+                    "z1Off": 0,
+                    "x2Off": 1,
+                    "y2Off": 1,
+                    "z2Off": 1,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:set_cuboid",
+                "parameters": {
+                    "x1Off": 0,
+                    "y1Off": -4,
+                    "z1Off": 0,
+                    "x2Off": 1,
+                    "y2Off": 0,
+                    "z2Off": 1,
+                    "blockStateId": "base:water[default]"
+                }
+            }
+        ],
+        "onBreak": [
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "srcPlayer": {
+                        "gamemode": {
+                            "allows_items_drop_on_break": true
+                        }
+                    }
+                },
+                "parameters": {
+                    "xOff": 0,
+                    "yOff": 0,
+                    "zOff": 0,
+                    "triggerId": "relayLuckyCrateDrop"
+                }
+            },
+            {
+                "actionId": "base:explode",
+                "if": {
+                    "random": {
+                        "percentChance": 5.0
+                    }
+                },
+                "parameters": {
+                    "radius": 10,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "random": {
+                        "percentChance": 15.0
+                    }
+                },
+                "parameters": {
+                    "xOff": 0,
+                    "yOff": 0,
+                    "zOff": 0,
+                    "triggerId": "relayBuildBox"
+                }
+            },
+            {
+                "actionId": "base:run_trigger",
+                "if": {
+                    "random": {
+                        "percentChance": 20.0
+                    }
+                },
+                "parameters": {
+                    "xOff": 0,
+                    "yOff": 0,
+                    "zOff": 0,
+                    "triggerId": "relayBuildWill"
+                }
+            },
+            {
+                "actionId": "base:replace_block_state",
+                "parameters": {
+                    "xOff": 0,
+                    "yOff": 0,
+                    "zOff": 0,
+                    "blockStateId": "base:air[default]"
+                }
+            },
+            {
+                "actionId": "base:play_sound_2d",
+                "parameters": {
+                    "sound": "base:sounds/blocks/block-break.ogg",
+                    "volume": 1,
+                    "pitch": [
+                        0.9,
+                        1.1
+                    ],
+                    "pan": 0
+                }
+            }
+        ]
+    }
+}

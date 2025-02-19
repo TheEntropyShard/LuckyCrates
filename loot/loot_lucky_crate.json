@@ -1,0 +1,626 @@
+{
+    "id": "luckycrates:loot_lucky_crate",
+    "options": [
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:aluminium_panel[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:asphalt[default]",
+                    "max": 100
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:boombox[pitch=A4]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:bricks[default]",
+                    "max": 100
+                }
+            ]
+        },
+        {
+            "weight": 0.08,
+            "stacks": [
+                {
+                    "id": "base:c4[default]",
+                    "max": 64
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:cheese[default]",
+                    "max": 10
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:crate_wooden[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:dirt[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:furnace[lit=off]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:glass[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.3,
+            "stacks": [
+                {
+                    "id": "base:gold_block[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:grass[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:hazard[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.7,
+            "stacks": [
+                {
+                    "id": "base:ice[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.2,
+            "stacks": [
+                {
+                    "id": "base:laser_emitter[direction=NegZ]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:leaves[type=permament]",
+                    "max": 15
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:leaves_poplar[type=permanent]",
+                    "max": 15
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=15,lightGreen=0,lightBlue=0]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=15,lightGreen=15,lightBlue=15]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=13,lightGreen=7,lightBlue=0]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=13,lightGreen=13,lightBlue=0]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=7,lightGreen=13,lightBlue=0]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=0,lightGreen=15,lightBlue=0]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=0,lightGreen=13,lightBlue=7]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=0,lightGreen=13,lightBlue=13]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=0,lightGreen=7,lightBlue=13]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=0,lightGreen=0,lightBlue=15]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=7,lightGreen=0,lightBlue=13]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=13,lightGreen=0,lightBlue=13]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:light[power=on,lightRed=13,lightGreen=0,lightBlue=7]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:lunar_soil[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:lunar_soil_packed[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:magma[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:metal_panel[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:ore_bauxite[default]",
+                    "max": 12
+                }
+            ]
+        },
+        {
+            "weight": 0.4,
+            "stacks": [
+                {
+                    "id": "base:ore_gold[default]",
+                    "max": 10
+                }
+            ]
+        },
+        {
+            "weight": 0.3,
+            "stacks": [
+                {
+                    "id": "base:ore_iron[default]",
+                    "max": 7
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:rubber_block[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:sand[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:sapling_poplar[growth=0]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:snow[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:stone_basalt[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:stone_gabbro[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:stone_gravel[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:stone_limestone[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:text_display[type=wall,direction=NegX]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:tree_log[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:water[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:wood_planks[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.7,
+            "stacks": [
+                {
+                    "id": "base:coconut[growth=0]",
+                    "max": 3
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:axe_aluminium",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:axe_iron",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:axe_stone",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:fluid_vacuum",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:ingot_aluminium",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:ingot_gold",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:ingot_iron",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:laser_gun",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:latex",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.4,
+            "stacks": [
+                {
+                    "id": "base:medkit",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.1,
+            "stacks": [
+                {
+                    "id": "base:medkit_gold",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:pickaxe_aluminium",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:pickaxe_iron",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:pickaxe_stone",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:rubber_ball",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:shovel_aluminium",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:shovel_iron",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 0.9,
+            "stacks": [
+                {
+                    "id": "base:shovel_stone",
+                    "max": 1
+                }
+            ]
+        },
+        {
+            "weight": 1.2,
+            "stacks": [
+                {
+                    "id": "base:stick",
+                    "max": 1
+                }
+            ]
+        }
+    ]
+}

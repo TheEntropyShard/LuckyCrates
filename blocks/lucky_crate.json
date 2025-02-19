@@ -1,0 +1,13 @@
+{
+    "stringId": "luckycrates:lucky_crate",
+    "blockStates": {
+        "default": {
+            "modelName": "luckycrates:models/blocks/model_lucky_crate.json",
+            "isOpaque": true,
+            "lightAttenuation": 15,
+            "stateGenerators": [],
+            "blockEventsId": "luckycrates:block_events_lucky_crate",
+            "catalogHidden": false
+        }
+    }
+}
