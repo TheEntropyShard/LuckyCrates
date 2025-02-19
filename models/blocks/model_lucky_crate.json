@@ -2,7 +2,7 @@
     "parent": "base:models/blocks/cube.json",
     "textures": {
         "all": {
-            "fileName": "luckycrates:textures/blocks/lucky_crate.png"
+            "fileName": "luckycrates:textures/blocks/lucky_crate_yellow.png"
         }
     }
 }
