@@ -2,6 +2,15 @@
     "id": "luckycrates:loot_lucky_crate",
     "options": [
         {
+            "weight": 0.1,
+            "stacks": [
+                {
+                    "id": "base:debug[default]",
+                    "max": 1
+                }
+            ]
+        },
+        {
             "weight": 0.9,
             "stacks": [
                 {
